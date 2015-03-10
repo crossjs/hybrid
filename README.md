@@ -1,12 +1,10 @@
 # hybrid
 hybrid development toc
 
-- 基础篇（2015/03/12）
+- 基础篇
   - HTML/CSS/JS 基本概念及相关框架/库讲解
-- 开发篇（2015/03/12）
+- 开发篇
   - 模块化、组件化、模块化、自动化开发简介
-- 应用篇（2015/03/12）
-  - 应用工厂 Module 开发及 UI 框架使用介绍
 
 ## 基础篇
 
@@ -91,21 +89,3 @@ hybrid development toc
 - [QUnit](http://qunitjs.com/)
 - [**mocha**](http://mochajs.org/)
 - [Jasmine](http://jasmine.github.io/)
-
-## 应用篇
-
-> 应用工厂 Module 开发的思考与 UI 框架使用介绍
-
-### Module 开发
-
-- 样式如何统一？
-    - 一个页面里的两个模块，应该基于同一个 CSS Reset
-- 依赖库如何统一管理？
-    - 场景1：一个页面里的两个模块，分别依赖 jQuery 1.11.2 和 2.1.3
-    - 场景2：一个页面里的两个模块，都依赖同一个版本的 jQuery
-- 打包问题？
-
-### UI 框架
-
-- [jQuery Mobile]()
-- [Origami](http://origami.ft.com/)
